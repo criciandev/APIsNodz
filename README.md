@@ -119,6 +119,6 @@ npm start      # 2️⃣ Rodar (porta 20026)
 Uso livre com créditos ao autor.
 
 ## 👨‍💻 Autor
-![Avatar](https://imgur.com/a/ej0I9eY)
+![Avatar](https://pngup.com/Eohb/1000043556.jpg)
 **Crician** - [Instagram](https://instagram.com/crician_02_)
 Segue lá pra dá aquela força 🤍
