@@ -119,13 +119,6 @@ npm start      # 2️⃣ Rodar (porta 20026)
 Uso livre com créditos ao autor.
 
 ## 👨‍💻 Autor
-**Crician** - [Instagram](https://instagram.com/crician.dev)
-
----
-
-### Hospedagem NodzHostinger
-![NodzHostinger](https://raw.githubusercontent.com/nazuninha/uploads/main/fotos/1775508507742_ssk6k6.jpg)
-
-**Cupom: `NODZ-26`** | **20% OFF** | [nodzhostinger.com.br](https://nodzhostinger.com.br)
-
-**Nosso grupo de WhatsApp** [Entrar](https://chat.whatsapp.com/EnND4ZCkjVO7hEDwAxblzg)
+![Avatar](https://imgur.com/a/ej0I9eY)
+**Crician** - [Instagram](https://instagram.com/crician_02_)
+Segue lá pra dá aquela força 🤍
