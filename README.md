@@ -29,7 +29,7 @@ Node.js + Express.js
 └── Auto-descoberta de rotas (/api/routes)
 ```
 
-## 🚀 Instalação Rápida em pterodactly
+## 🚀 Instalação Rápida em Pterodactly
 
 ```bash
 git clone https://github.com/devcrician/APIsNodz.git
@@ -44,7 +44,7 @@ npm start
 
 ### 1. **Porta**
 ```js
-const PORT = 30031;  // Mude aqui
+const PORT = process.env.PORT || 30031;  // Mude aqui ou na .env
 ```
 
 ### 2. **Rate Limit Global** (já incluso)
@@ -102,7 +102,7 @@ curl http://seuservidor:30031
 
 | Problema | Solução |
 |----------|---------|
-| **Porta ocupada** | `const PORT = 3000;` no Server.js |
+| **Porta ocupada** | `const PORT = process.env.PORT || 30031;` no Server.js |
 | **Rate limit** | Aguarde 1min ou aumente `max: 2000` |
 | **CORS error** | Já está `*` (sem restrições) |
 | **npm install falha** | `rm -rf node_modules && npm install` |
