@@ -29,7 +29,7 @@ Node.js + Express.js
 └── Auto-descoberta de rotas (/api/routes)
 ```
 
-## 🚀 Instalação Rápida
+## 🚀 Instalação Rápida em pterodactly
 
 ```bash
 git clone https://github.com/devcrician/APIsNodz.git
@@ -38,13 +38,13 @@ npm install
 npm start
 ```
 
-**Servidor roda em: `http://localhost:20026`**
+**Servidor roda em: `http://seuservidor:30031`**
 
 ## ⚙️ Configurações (Server.js)
 
 ### 1. **Porta**
 ```js
-const PORT = 20026;  // Mude aqui
+const PORT = 30031;  // Mude aqui
 ```
 
 ### 2. **Rate Limit Global** (já incluso)
@@ -60,7 +60,7 @@ app.use(cors({ origin: '*' }));  // Sem restrições
 
 ## 🌐 Endpoints Disponíveis
 
-Acesse `http://localhost:20026/api/routes` para ver todas as rotas automaticamente!
+Acesse `http://seuservidor:30031/api/routes` para ver todas as rotas automaticamente!
 
 **Exemplos:**
 ```
@@ -89,13 +89,13 @@ Acesse `http://localhost:20026/api/routes` para ver todas as rotas automaticamen
 
 ```bash
 # Health check
-curl http://localhost:20026/health
+curl http://seuservidor:30031/health
 
 # Lista de rotas
-curl http://localhost:20026/api/routes
+curl http://seuservidor:30031/api/routes
 
 # Site principal
-curl http://localhost:20026
+curl http://seuservidor:30031
 ```
 
 ## 🔍 Solução de Problemas
@@ -111,8 +111,8 @@ curl http://localhost:20026
 
 ```bash
 npm install    # 1️⃣ Dependências
-npm start      # 2️⃣ Rodar (porta 20026)
-# 3️⃣ Acessar: http://localhost:20026
+npm start      # 2️⃣ Rodar (porta 30031)
+# 3️⃣ Acessar: http://seuservidor:30031
 ```
 
 ## 📄 Licença
