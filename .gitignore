@@ -1,0 +1,26 @@
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.npm
+.eslintcache
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de build/temporários
+dist/
+build/
+*.log
