@@ -11,7 +11,7 @@ const app = express();
 
 app.set('trust proxy', 1);
 
-const PORT = 20026;
+const PORT = process.env.PORT || 3000;
 
 const colors = {
   reset: '\x1b[0m',
