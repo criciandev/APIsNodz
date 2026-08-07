@@ -1,7 +1,7 @@
 const { Request } = require('../Utils/ApiClient.js');
 const axios = require('axios');
 
-const IA_API_KEY = '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';
+const IA_API_KEY = process.env.TOKEN_NVIDIA;
 
 const TIMEOUT_MS = 120000;
 const cache = new Map();
